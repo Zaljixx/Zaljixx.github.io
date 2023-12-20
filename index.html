@@ -1,1 +1,45 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Grafits</title><script defer="defer" src="js/runtime.bundle.js"></script><script defer="defer" src="js/app.bundle.js"></script><script defer="defer" src="js/vendor.bundle.js"></script></head><body><div id="app-root"></div></body></html>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.SK3v3qsg.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.k-kUyWhY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.iI56zbMA.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.mMSPFMEh.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5XCitCbI.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.L1tgILAx.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2._8qKuSMF.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-1wfptx">Welcome to Grafits</h1> 
+			
+			<script>
+				{
+					__sveltekit_nzzkd7 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.SK3v3qsg.js"),
+						import("./_app/immutable/entry/app.mMSPFMEh.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
